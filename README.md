@@ -94,4 +94,4 @@ After a couple of hours of research and instructor involvement (every instructor
 * Auth Server - `node index.js` from the root folder
 
 #### UML
-[Remote Crud](https://raw.githubusercontent.com/dlchambersjr/lab-36-web-server/master/facebook-oauth-uml.jpg)
+[Facebook OAuth](https://raw.githubusercontent.com/dlchambersjr/lab-36-web-server/master/facebook-oauth-uml.jpg)
