@@ -25,7 +25,7 @@ The first challenge was to separate the web server and Auth server into two sepa
 
 The primary challenge we discovered involved HTTPS.  As of October 6, 2018, Facebook required all URLs used for the redirect to utilize HTTPS instead of HTTP.
 
-Node and express do not inherently provide a HTTPS layer.  So the hunt for options started.  We found a number of suggestions, which led us to implement the steps found at [<TimonWeb>](https://timonweb.com/posts/running-expressjs-server-over-https/):
+Node and express do not inherently provide a HTTPS layer.  So the hunt for options started.  We found a number of suggestions, which led us to implement the steps found at [TimonWeb](https://timonweb.com/posts/running-expressjs-server-over-https/):
 
 1. Generate a self-signed certificate: ```openssl req -nodes -new -x509 -keyout server.key -out server.cert```
 2. Enable HTTPS in Express:
